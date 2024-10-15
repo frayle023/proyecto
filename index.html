@@ -1,15 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Práctica de Listas Ordenadas y No Ordenadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h3>Empanadas de cajeta</h3>
-    <h2>Ingredientes:</h2>
-    <ul>
-        <li>Para la masa:</li>
+
+    <h1>Práctica de Listas Ordenadas y No Ordenadas</h1>
+
+    <h2>1. Lista no ordenada (con tipo 'circle')</h2>
+    <ul style="list-style-type: circle;">
+        <li>Frutas
+            <ul style="list-style-type: square;">
+                <li>Manzanas</li>
+                <li>Plátanos</li>
+                <li>Fresas</li>
+            </ul>
+        </li>
+        <li>Verduras
+            <ul style="list-style-type: disc;">
+                <li>Zanahorias</li>
+                <li>Espinacas</li>
+                <li>Brócoli</li>
+            </ul>
+        </li>
+        <li>Bebidas
+            <ul style="list-style-type: none;">
+                <li>Café</li>
+                <li>Té</li>
+                <li>Agua</li>
+            </ul>
+        </li>
     </ul>
+
+    <h2>2. Lista ordenada (con tipo 'i')</h2>
+    <ol type="i">
+        <li>Continentes
+            <ol type="A">
+                <li>América</li>
+                <li>Europa</li>
+                <li>Asia</li>
+            </ol>
+        </li>
+        <li>Océanos
+            <ol type="a">
+                <li>Atlántico</li>
+                <li>Pacífico</li>
+                <li>Índico</li>
+            </ol>
+        </li>
+        <li>Planetas
+            <ol type="1">
+                <li>Mercurio</li>
+                <li>Venus</li>
+                <li>Tierra</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h2>3. Combinación de listas ordenadas y no ordenadas</h2>
+    <ol type="1">
+        <li>Tipos de Comida
+            <ul style="list-style-type: disc;">
+                <li>Italiana</li>
+                <li>Mexicana</li>
+                <li>Japonesa</li>
+            </ul>
+        </li>
+        <li>Deportes
+            <ol type="I">
+                <li>Fútbol</li>
+                <li>Baloncesto</li>
+                <li>Tenis</li>
+            </ol>
+        </li>
+        <li>Medios de Transporte
+            <ul style="list-style-type: square;">
+                <li>Automóvil</li>
+                <li>Bicicleta</li>
+                <li>Avión</li>
+            </ul>
+        </li>
+    </ol>
+
 </body>
 </html>
